@@ -1,0 +1,12 @@
+{
+    "name": "DashBoardInAction_PZ",
+    "description": "Tarea de IoT realizada el 05/10/25 por Pedro Zavala de 6to",
+    "version": "0.0.1",
+    "dependencies": {},
+    "node-red": {
+        "settings": {
+            "flowFile": "flows.json",
+            "credentialsFile": "flows_cred.json"
+        }
+    }
+}
