@@ -1815,8 +1815,8 @@
         "type": "random",
         "z": "9eb5ef4556180e38",
         "name": "",
-        "low": 1,
-        "high": 10,
+        "low": "10",
+        "high": "70",
         "inte": "true",
         "property": "payload",
         "x": 280,
@@ -1984,9 +1984,9 @@
         "once": false,
         "onceDelay": 0.1,
         "topic": "",
-        "payload": "",
-        "payloadType": "date",
-        "x": 280,
+        "payload": "55",
+        "payloadType": "num",
+        "x": 270,
         "y": 680,
         "wires": [
             [
@@ -2013,9 +2013,9 @@
         "once": false,
         "onceDelay": 0.1,
         "topic": "",
-        "payload": "",
-        "payloadType": "date",
-        "x": 300,
+        "payload": "10",
+        "payloadType": "num",
+        "x": 290,
         "y": 860,
         "wires": [
             [
@@ -2042,9 +2042,9 @@
         "once": false,
         "onceDelay": 0.1,
         "topic": "",
-        "payload": "",
-        "payloadType": "date",
-        "x": 120,
+        "payload": "1",
+        "payloadType": "num",
+        "x": 110,
         "y": 740,
         "wires": [
             [
