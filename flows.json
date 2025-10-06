@@ -254,7 +254,7 @@
         "order": 1,
         "disp": true,
         "width": 9,
-        "collapse": true,
+        "collapse": false,
         "className": ""
     },
     {
