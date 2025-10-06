@@ -1852,7 +1852,7 @@
         "shape": "circle",
         "showGlow": true,
         "name": "",
-        "x": 690,
+        "x": 850,
         "y": 740,
         "wires": []
     },
@@ -1881,8 +1881,12 @@
         "x": 470,
         "y": 740,
         "wires": [
-            [],
-            []
+            [
+                "cde874666b23d148"
+            ],
+            [
+                "1b0b05b3c347382f"
+            ]
         ]
     },
     {
@@ -1904,5 +1908,59 @@
         "x": 470,
         "y": 800,
         "wires": []
+    },
+    {
+        "id": "cde874666b23d148",
+        "type": "change",
+        "z": "9eb5ef4556180e38",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "",
+                "tot": "str"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 660,
+        "y": 700,
+        "wires": [
+            [
+                "8854a9d19fb564cd"
+            ]
+        ]
+    },
+    {
+        "id": "1b0b05b3c347382f",
+        "type": "change",
+        "z": "9eb5ef4556180e38",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "",
+                "tot": "str"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 660,
+        "y": 780,
+        "wires": [
+            [
+                "8854a9d19fb564cd"
+            ]
+        ]
     }
 ]
