@@ -487,6 +487,17 @@
         "className": ""
     },
     {
+        "id": "1343ba6a08765b87",
+        "type": "ui_group",
+        "name": "Parte4",
+        "tab": "dcc16a171372887b",
+        "order": 4,
+        "disp": true,
+        "width": 6,
+        "collapse": false,
+        "className": ""
+    },
+    {
         "id": "748349e6a87beaab",
         "type": "inject",
         "z": "6d06c49ab6dc74a9",
@@ -1604,7 +1615,7 @@
         "type": "ui_gauge",
         "z": "9eb5ef4556180e38",
         "name": "",
-        "group": "bd4003ca038032b1",
+        "group": "1343ba6a08765b87",
         "order": 3,
         "width": 0,
         "height": 0,
