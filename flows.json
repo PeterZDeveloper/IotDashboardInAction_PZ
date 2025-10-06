@@ -260,7 +260,7 @@
     {
         "id": "74d183b7e9cfa1bb",
         "type": "ui_group",
-        "name": "Parte 2",
+        "name": "Parte 1 LED",
         "tab": "e4e8a53bdbe58f14",
         "order": 1,
         "disp": true,
@@ -1819,10 +1819,12 @@
         "high": 10,
         "inte": "true",
         "property": "payload",
-        "x": 300,
-        "y": 740,
+        "x": 280,
+        "y": 760,
         "wires": [
-            []
+            [
+                "19aad931938fe8ad"
+            ]
         ]
     },
     {
@@ -1830,7 +1832,7 @@
         "type": "ui_led",
         "z": "9eb5ef4556180e38",
         "order": 0,
-        "group": "ui_group",
+        "group": "74d183b7e9cfa1bb",
         "width": 0,
         "height": 0,
         "label": "",
@@ -1838,13 +1840,13 @@
         "labelAlignment": "left",
         "colorForValue": [
             {
-                "color": "red",
-                "value": false,
+                "color": "#ff0000",
+                "value": "false",
                 "valueType": "bool"
             },
             {
-                "color": "green",
-                "value": true,
+                "color": "#008000",
+                "value": "true",
                 "valueType": "bool"
             }
         ],
@@ -1919,8 +1921,8 @@
                 "t": "set",
                 "p": "payload",
                 "pt": "msg",
-                "to": "",
-                "tot": "str"
+                "to": "{\"color\":\"green\",\"text\":\"> 50\",\"shape\":\"dot\"}",
+                "tot": "json"
             }
         ],
         "action": "",
@@ -1946,8 +1948,8 @@
                 "t": "set",
                 "p": "payload",
                 "pt": "msg",
-                "to": "",
-                "tot": "str"
+                "to": "{\"color\":\"red\",\"text\":\"< 15\",\"shape\":\"dot\"}",
+                "tot": "json"
             }
         ],
         "action": "",
@@ -1960,6 +1962,93 @@
         "wires": [
             [
                 "8854a9d19fb564cd"
+            ]
+        ]
+    },
+    {
+        "id": "4c6f7df5f9058744",
+        "type": "inject",
+        "z": "9eb5ef4556180e38",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "",
+        "payloadType": "date",
+        "x": 280,
+        "y": 680,
+        "wires": [
+            [
+                "19aad931938fe8ad"
+            ]
+        ]
+    },
+    {
+        "id": "ed2d168457cfe79f",
+        "type": "inject",
+        "z": "9eb5ef4556180e38",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "",
+        "payloadType": "date",
+        "x": 300,
+        "y": 860,
+        "wires": [
+            [
+                "19aad931938fe8ad"
+            ]
+        ]
+    },
+    {
+        "id": "c9c945d3c387fc1a",
+        "type": "inject",
+        "z": "9eb5ef4556180e38",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "",
+        "payloadType": "date",
+        "x": 120,
+        "y": 740,
+        "wires": [
+            [
+                "31fbb6acbe310afe"
             ]
         ]
     }
