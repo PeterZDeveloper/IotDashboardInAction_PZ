@@ -320,7 +320,7 @@
         "z": "9eb5ef4556180e38",
         "name": "spacer",
         "group": "bd4003ca038032b1",
-        "order": 4,
+        "order": 5,
         "width": 9,
         "height": 1
     },
@@ -330,7 +330,7 @@
         "z": "9eb5ef4556180e38",
         "name": "spacer",
         "group": "bd4003ca038032b1",
-        "order": 5,
+        "order": 6,
         "width": 9,
         "height": 1
     },
@@ -340,7 +340,7 @@
         "z": "9eb5ef4556180e38",
         "name": "spacer",
         "group": "bd4003ca038032b1",
-        "order": 6,
+        "order": 7,
         "width": 9,
         "height": 1
     },
@@ -350,7 +350,7 @@
         "z": "9eb5ef4556180e38",
         "name": "spacer",
         "group": "bd4003ca038032b1",
-        "order": 7,
+        "order": 8,
         "width": 9,
         "height": 1
     },
@@ -360,7 +360,7 @@
         "z": "9eb5ef4556180e38",
         "name": "spacer",
         "group": "bd4003ca038032b1",
-        "order": 8,
+        "order": 9,
         "width": 9,
         "height": 1
     },
@@ -370,7 +370,7 @@
         "z": "9eb5ef4556180e38",
         "name": "spacer",
         "group": "bd4003ca038032b1",
-        "order": 9,
+        "order": 10,
         "width": 9,
         "height": 1
     },
@@ -380,7 +380,7 @@
         "z": "9eb5ef4556180e38",
         "name": "spacer",
         "group": "bd4003ca038032b1",
-        "order": 10,
+        "order": 11,
         "width": 9,
         "height": 1
     },
@@ -390,7 +390,7 @@
         "z": "9eb5ef4556180e38",
         "name": "spacer",
         "group": "bd4003ca038032b1",
-        "order": 11,
+        "order": 12,
         "width": 9,
         "height": 1
     },
@@ -400,7 +400,7 @@
         "z": "9eb5ef4556180e38",
         "name": "spacer",
         "group": "bd4003ca038032b1",
-        "order": 12,
+        "order": 13,
         "width": 9,
         "height": 1
     },
@@ -410,7 +410,7 @@
         "z": "9eb5ef4556180e38",
         "name": "spacer",
         "group": "bd4003ca038032b1",
-        "order": 13,
+        "order": 14,
         "width": 9,
         "height": 1
     },
@@ -440,7 +440,7 @@
         "z": "9eb5ef4556180e38",
         "name": "spacer",
         "group": "bd4003ca038032b1",
-        "order": 18,
+        "order": 19,
         "width": 9,
         "height": 1
     },
@@ -450,7 +450,7 @@
         "z": "9eb5ef4556180e38",
         "name": "spacer",
         "group": "bd4003ca038032b1",
-        "order": 19,
+        "order": 18,
         "width": 9,
         "height": 1
     },
@@ -460,9 +460,9 @@
         "z": "9eb5ef4556180e38",
         "name": "spacer",
         "group": "bd4003ca038032b1",
-        "order": 20,
-        "width": 9,
-        "height": 1
+        "order": 15,
+        "width": "9",
+        "height": "1"
     },
     {
         "id": "a760d29056aa7131",
@@ -496,6 +496,16 @@
         "width": 6,
         "collapse": false,
         "className": ""
+    },
+    {
+        "id": "14691216e2891084",
+        "type": "ui_spacer",
+        "z": "9eb5ef4556180e38",
+        "name": "spacer",
+        "group": "bd4003ca038032b1",
+        "order": 4,
+        "width": 1,
+        "height": 1
     },
     {
         "id": "748349e6a87beaab",
@@ -1532,7 +1542,6 @@
             [
                 "c2d661f30179bd8e",
                 "71740213052efe20",
-                "c22fad9e52b29e11",
                 "d1db0ca3525c5a7f"
             ]
         ]
@@ -1609,34 +1618,6 @@
         "wires": [
             []
         ]
-    },
-    {
-        "id": "c22fad9e52b29e11",
-        "type": "ui_gauge",
-        "z": "9eb5ef4556180e38",
-        "name": "",
-        "group": "1343ba6a08765b87",
-        "order": 3,
-        "width": 0,
-        "height": 0,
-        "gtype": "gage",
-        "title": "gauge",
-        "label": "units",
-        "format": "{{value}}",
-        "min": 0,
-        "max": 10,
-        "colors": [
-            "#00b500",
-            "#e6e600",
-            "#ca3838"
-        ],
-        "seg1": "",
-        "seg2": "",
-        "diff": false,
-        "className": "",
-        "x": 430,
-        "y": 300,
-        "wires": []
     },
     {
         "id": "c2d661f30179bd8e",
@@ -1838,7 +1819,7 @@
         "label": "slider",
         "tooltip": "",
         "group": "bd4003ca038032b1",
-        "order": 22,
+        "order": 3,
         "width": 0,
         "height": 0,
         "passthru": true,
