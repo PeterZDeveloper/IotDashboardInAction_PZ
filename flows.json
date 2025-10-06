@@ -254,7 +254,7 @@
         "order": 1,
         "disp": true,
         "width": 6,
-        "collapse": false,
+        "collapse": true,
         "className": ""
     },
     {
@@ -1783,5 +1783,15 @@
         "wires": [
             []
         ]
+    },
+    {
+        "id": "c8175374cb08d00d",
+        "type": "comment",
+        "z": "68e28a4b631f7e1f",
+        "name": "Clase 5 Ejercicio 2",
+        "info": "",
+        "x": 170,
+        "y": 40,
+        "wires": []
     }
 ]
