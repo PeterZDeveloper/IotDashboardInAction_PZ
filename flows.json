@@ -503,7 +503,7 @@
         "z": "9eb5ef4556180e38",
         "name": "spacer",
         "group": "bd4003ca038032b1",
-        "order": 4,
+        "order": 2,
         "width": 1,
         "height": 1
     },
@@ -1542,7 +1542,8 @@
             [
                 "c2d661f30179bd8e",
                 "71740213052efe20",
-                "d1db0ca3525c5a7f"
+                "d1db0ca3525c5a7f",
+                "f2906cee1de39eb6"
             ]
         ]
     },
@@ -1581,7 +1582,7 @@
         "z": "9eb5ef4556180e38",
         "name": "",
         "group": "bd4003ca038032b1",
-        "order": 2,
+        "order": 3,
         "width": 0,
         "height": 0,
         "label": "chart",
@@ -1819,7 +1820,7 @@
         "label": "slider",
         "tooltip": "",
         "group": "bd4003ca038032b1",
-        "order": 3,
+        "order": 4,
         "width": 0,
         "height": 0,
         "passthru": true,
@@ -1947,6 +1948,34 @@
         "wires": [
             []
         ]
+    },
+    {
+        "id": "f2906cee1de39eb6",
+        "type": "ui_gauge",
+        "z": "9eb5ef4556180e38",
+        "name": "",
+        "group": "1343ba6a08765b87",
+        "order": 0,
+        "width": 0,
+        "height": 0,
+        "gtype": "gage",
+        "title": "gauge",
+        "label": "units",
+        "format": "{{value}}",
+        "min": 0,
+        "max": 10,
+        "colors": [
+            "#00b500",
+            "#e6e600",
+            "#ca3838"
+        ],
+        "seg1": "",
+        "seg2": "",
+        "diff": false,
+        "className": "",
+        "x": 510,
+        "y": 300,
+        "wires": []
     },
     {
         "id": "c8175374cb08d00d",
