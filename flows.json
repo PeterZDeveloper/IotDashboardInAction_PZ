@@ -40,14 +40,6 @@
         "env": []
     },
     {
-        "id": "68e28a4b631f7e1f",
-        "type": "tab",
-        "label": "Flow 5",
-        "disabled": false,
-        "info": "",
-        "env": []
-    },
-    {
         "id": "60a29e408df7ee51",
         "type": "mqtt-broker",
         "name": "Hivemq.com",
@@ -1799,16 +1791,6 @@
         "className": "",
         "x": 510,
         "y": 300,
-        "wires": []
-    },
-    {
-        "id": "c8175374cb08d00d",
-        "type": "comment",
-        "z": "68e28a4b631f7e1f",
-        "name": "Clase 5 Ejercicio 2",
-        "info": "",
-        "x": 170,
-        "y": 40,
         "wires": []
     }
 ]
