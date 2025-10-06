@@ -269,28 +269,6 @@
         "className": ""
     },
     {
-        "id": "76c4a347371f852f",
-        "type": "ui_group",
-        "name": "Parte 3",
-        "tab": "",
-        "order": 1,
-        "disp": true,
-        "width": 6,
-        "collapse": false,
-        "className": ""
-    },
-    {
-        "id": "42d6cb0b27c3f6da",
-        "type": "ui_group",
-        "name": "Parte 4",
-        "tab": "",
-        "order": 1,
-        "disp": true,
-        "width": 6,
-        "collapse": false,
-        "className": ""
-    },
-    {
         "id": "a760d29056aa7131",
         "type": "ui_group",
         "name": "parte2",
