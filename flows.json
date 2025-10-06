@@ -1923,8 +1923,8 @@
                 "t": "set",
                 "p": "payload",
                 "pt": "msg",
-                "to": "{\"color\":\"green\",\"text\":\"> 50\",\"shape\":\"dot\"}",
-                "tot": "json"
+                "to": "true",
+                "tot": "bool"
             }
         ],
         "action": "",
@@ -1951,8 +1951,8 @@
                 "t": "set",
                 "p": "payload",
                 "pt": "msg",
-                "to": "{\"color\":\"red\",\"text\":\"< 15\",\"shape\":\"dot\"}",
-                "tot": "json"
+                "to": "false",
+                "tot": "bool"
             }
         ],
         "action": "",
