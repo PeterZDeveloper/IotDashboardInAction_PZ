@@ -2307,7 +2307,7 @@
         "ymax": "30",
         "removeOlder": 1,
         "removeOlderPoints": "",
-        "removeOlderUnit": "1",
+        "removeOlderUnit": "3600",
         "cutout": 0,
         "useOneColor": false,
         "useUTC": true,
