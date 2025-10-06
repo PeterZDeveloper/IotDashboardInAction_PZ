@@ -260,7 +260,7 @@
     {
         "id": "e4e8a53bdbe58f14",
         "type": "ui_tab",
-        "name": "Group2Flow1",
+        "name": "Group2Flow2",
         "icon": "dashboard",
         "disabled": false,
         "hidden": false
@@ -277,18 +277,10 @@
         "className": ""
     },
     {
-        "id": "14981486d70c6b76",
-        "type": "ui_tab",
-        "name": "Group3Flow1",
-        "icon": "dashboard",
-        "disabled": false,
-        "hidden": false
-    },
-    {
         "id": "76c4a347371f852f",
         "type": "ui_group",
         "name": "Parte 3",
-        "tab": "14981486d70c6b76",
+        "tab": "",
         "order": 1,
         "disp": true,
         "width": 6,
@@ -296,18 +288,10 @@
         "className": ""
     },
     {
-        "id": "3689f6e1e2638bc6",
-        "type": "ui_tab",
-        "name": "Group4Flow1",
-        "icon": "dashboard",
-        "disabled": false,
-        "hidden": false
-    },
-    {
         "id": "42d6cb0b27c3f6da",
         "type": "ui_group",
         "name": "Parte 4",
-        "tab": "3689f6e1e2638bc6",
+        "tab": "",
         "order": 1,
         "disp": true,
         "width": 6,
