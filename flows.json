@@ -1472,8 +1472,8 @@
         "outputs": 1,
         "useDifferentColor": false,
         "className": "",
-        "x": 370,
-        "y": 360,
+        "x": 670,
+        "y": 340,
         "wires": [
             []
         ]
@@ -1518,8 +1518,8 @@
         "topic": "topic",
         "topicType": "msg",
         "className": "",
-        "x": 350,
-        "y": 460,
+        "x": 610,
+        "y": 80,
         "wires": [
             [
                 "3f4bcdae8dd23752"
@@ -1541,8 +1541,8 @@
         "className": "",
         "topic": "",
         "name": "",
-        "x": 410,
-        "y": 580,
+        "x": 370,
+        "y": 420,
         "wires": []
     },
     {
@@ -1565,8 +1565,8 @@
         "payloadType": "str",
         "topic": "topic",
         "topicType": "msg",
-        "x": 150,
-        "y": 300,
+        "x": 450,
+        "y": 280,
         "wires": [
             [
                 "259ab2a111fafa6a"
@@ -1599,8 +1599,8 @@
         "offcolor": "",
         "animate": false,
         "className": "",
-        "x": 150,
-        "y": 360,
+        "x": 450,
+        "y": 340,
         "wires": [
             [
                 "259ab2a111fafa6a"
@@ -1626,8 +1626,8 @@
         "max": 10,
         "step": 1,
         "className": "",
-        "x": 150,
-        "y": 420,
+        "x": 290,
+        "y": 280,
         "wires": [
             [
                 "71740213052efe20"
@@ -1654,8 +1654,8 @@
         "max": 10,
         "step": 1,
         "className": "",
-        "x": 140,
-        "y": 500,
+        "x": 100,
+        "y": 340,
         "wires": [
             [
                 "9829b95a065012bd"
@@ -1680,8 +1680,8 @@
         "sendOnBlur": true,
         "className": "",
         "topicType": "msg",
-        "x": 140,
-        "y": 560,
+        "x": 100,
+        "y": 400,
         "wires": [
             [
                 "9829b95a065012bd"
@@ -1712,8 +1712,8 @@
         "topic": "topic",
         "topicType": "msg",
         "className": "",
-        "x": 150,
-        "y": 620,
+        "x": 110,
+        "y": 460,
         "wires": [
             [
                 "9829b95a065012bd"
@@ -1738,8 +1738,8 @@
         "sendOnBlur": true,
         "className": "",
         "topicType": "msg",
-        "x": 540,
-        "y": 460,
+        "x": 800,
+        "y": 80,
         "wires": [
             []
         ]
@@ -1768,8 +1768,8 @@
         "seg2": "",
         "diff": false,
         "className": "",
-        "x": 450,
-        "y": 320,
+        "x": 150,
+        "y": 280,
         "wires": []
     },
     {
@@ -1778,8 +1778,8 @@
         "z": "9eb5ef4556180e38",
         "name": "Clase 5 Ejercicio 2 LEDS",
         "info": "",
-        "x": 150,
-        "y": 700,
+        "x": 130,
+        "y": 580,
         "wires": []
     },
     {
